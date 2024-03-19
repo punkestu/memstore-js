@@ -1,4 +1,4 @@
-const { set, get, mutex } = require("memstorejs");
+const { set, get, mutex } = require("../lib/index");
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 describe("memstore", () => {
